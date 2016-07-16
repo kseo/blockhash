@@ -1,6 +1,6 @@
 module Main where
 
-import Lib
+import Data.Blockhash
 
 main :: IO ()
-main = someFunc
+main = putStrLn "blockhash"
