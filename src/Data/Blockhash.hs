@@ -1,3 +1,14 @@
+-- |
+-- Module      : Data.Vector.Unboxed
+-- Copyright   : (c) Kwang Yul Seo 2016
+-- License     : BSD-style
+--
+-- Maintainer  : Kwang Yul Seo <kwangyul.seo@gmail.com>
+-- Stability   : experimental
+-- Portability : portable
+--
+-- Perceptual image hash calculation tool based on algorithm descibed in
+-- Block Mean Value Based Image Perceptual Hashing by Bian Yang, Fan Gu and Xiamu Niu.
 module Data.Blockhash
   ( Image(..)
   , Hash(..)
