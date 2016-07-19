@@ -1,4 +1,4 @@
-blockhash
+blockhash [![Build Status](https://travis-ci.org/kseo/blockhash.svg?branch=master)](https://travis-ci.org/kseo/blockhash)
 =========
 
 This is a perceptual image hash calculation tool based on algorithm descibed in
