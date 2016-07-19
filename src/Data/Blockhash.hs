@@ -41,6 +41,7 @@ data Image = Image
   , imagePixels :: Vector Word8
   } deriving (Show)
 
+-- | Calculate the hamming distance for two hashes in hex format
 hammingDistance :: Hash -> Hash -> Int
 hammingDistance (Hash h1) (Hash h2) =
   V.sum $ V.map popCount $ V.zipWith xor (V.map digitToInt h1) (V.map digitToInt h2)
