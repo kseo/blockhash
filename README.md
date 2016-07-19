@@ -31,7 +31,7 @@ import qualified Data.Vector.Generic as VG
 import qualified Data.Vector.Unboxed as V
 
 printHash :: FilePath -> IO ()
-printHash :: filename = do
+printHash filename = do
   res <- P.readImage filename
   case res of
     Left err -> putStrLn ("Fail to read: " ++ filename)
