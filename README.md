@@ -1,4 +1,4 @@
-blockhash [![Build Status](https://travis-ci.org/kseo/blockhash.svg?branch=master)](https://travis-ci.org/kseo/blockhash)
+blockhash [![Hackage](https://img.shields.io/hackage/v/blockhash.svg?style=flat)](https://hackage.haskell.org/package/blockhash) [![Build Status](https://travis-ci.org/kseo/blockhash.svg?branch=master)](https://travis-ci.org/kseo/blockhash)
 =========
 
 This is a perceptual image hash calculation tool based on algorithm described in
